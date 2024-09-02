@@ -1,1 +1,1 @@
-For anything related to web dev you can go to the official website of ([MDN docs](https://developer.mozilla.org/index.html)).
+For anything related to web dev you can go to the official website of [MDN docs](https://developer.mozilla.org/index.html).
