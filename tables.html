@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, tr, td, th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        caption {
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>i. Student details</caption>
+        <thead>
+            <tr>
+                <th>S. no.</th>
+                <th>Name</th>
+                <th>Roll no.</th>
+                <th>Email Id</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pragya</td>
+                <td>4</td>
+                <td>p@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>A</td>
+                <td>1</td>
+                <td>a@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>B</td>
+                <td>2</td>
+                <td>b@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>C</td>
+                <td>3</td>
+                <td>c@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">End of data</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <table>
+        <caption>ii.</caption>
+        <tr>
+          <th rowspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>30</td>
+          <td>New York</td>
+        </tr>
+      </table>
+
+      <table>
+        <caption>iii.</caption>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Details</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>Age</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>Location</td>
+          <td>Los Angeles</td>
+        </tr>
+      </table>
+      
+      <table >
+        <caption>iv.</caption>
+        <colgroup>
+          <col style="background-color: lightgrey;">
+          <col style="background-color: lightblue;">
+          <col style="background-color: lightgreen;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Location</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>New York</td>
+              </tr>
+              <tr>
+
+                <td>Jane Smith</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+              </tr>
+        </tbody>
+      </table>
+      
+      <table>
+        <thead>
+            <tr>
+                <th colspan="2">Welcome to my form page</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Username</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>18+</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Want it?</td>
+                <td><input type="radio"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Submit</td>
+            </tr>
+        </tfoot>
+      </table>
+      
+</body>
+</html>
