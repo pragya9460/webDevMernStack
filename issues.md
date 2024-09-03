@@ -1,5 +1,7 @@
-1. Not able to do git push:
-    Problem:
+### Issues
+1. Not able to do git push:    
+   **Problem:**
+   ```
         git push
         Enumerating objects: 13, done.
         Counting objects: 100% (13/13), done.
@@ -11,9 +13,16 @@
         Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
         fatal: the remote end hung up unexpectedly
         Everything up-to-date
-    Solution: Reduce the Buffer Size: Sometimes, this issue occurs due to large files or repositories. You can try reducing the HTTP post buffer:
-        git config --global http.postBuffer 524288000
+   ```
+   **Solution:**
+   Reduce the Buffer Size: Sometimes, this issue occurs due to large files or repositories. You can try reducing the HTTP post buffer:       
+   ``` git config --global http.postBuffer 524288000 ```
+   
     This command increases the buffer size to 500MB, which might help if the problem is due to large files.
-2. Git pushes where not showing in github contribution graph
-    Problem was: Both remote and local had different emailIds.
-    Solution: Let your global email config as it is, for local add you emailId same as on github using this command: git config --local user.email id@gmail.com
+3. Git pushes where not showing in github contribution graph      
+   **Problem was:**
+   Both remote and local had different emailIds.     
+   **Solution:**
+   Let your global email config as it is, for local add you emailId same as on github using this command:
+   
+   ``` git config --local user.email id@gmail.com ```
