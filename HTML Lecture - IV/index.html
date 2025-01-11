@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .divClass {
+            background-color: rgb(250, 94, 94);
+        }
+        #secondDiv {
+            background-color: aqua;
+        }
+        
+        p {
+            background-color: pink;
+        }
+
+        span {
+            background-color: blanchedalmond;
+            font-size: large;
+            /* display: block; */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://facebook.com">facebook</a>
+    <br>
+    <a href="tel:+918300000000">Call pragya</a>
+    <br>
+    <a href="mailto:pragyajnv13@gmail.com">mail us</a>
+    <br>
+
+    <!-- Styling can be done on tag(will be applied to add element of that tag), or can be done to specific things, using id(#) or class(.) -->
+    <!-- Div is a generic tag, it's like a container and a block element, which means by default it's css property of display is set to block -->
+    <p>This is para</p>
+
+    <div class="divClass">
+        This is 1st div
+    </div>
+
+    <div id="secondDiv">
+        This is 2nd div
+    </div>
+
+    <!-- span => This is same as div only difference is it's a inline element -->
+    <span>This is a span tag 1</span>
+    <span>This is a span tag 2</span>
+    <span>This is a span tag 3</span>
+
+    <!-- Semantic tags, semantic mean meaningful, provide mean of the content inside it -->
+    <!-- Some of the semantic tags are, p, article, section, fig, figcaption, aside, header, footer, main, nav  etc -->
+     <!-- since p, artice, section all do the same work then why we need 3 different tags for them? Because it provides meaning, i.e semantics -->
+    <!-- div & span tags are non-semantic tag, mean don't provide any meaning -->
+
+    <!-- Section tag is used to provide meaning to the content and divide the html page content into multiple sections -->
+    <section style="background-color: rebeccapurple;">This is a section</section>
+
+    <input type="file">
+
+    <!-- nav tag => Has navigational links -->
+    <nav>
+        <a href="https://example.com">a</a>
+        <a href="https://example.com">b</a>
+        <a href="https://example.com">c</a>
+        <a href="https://example.com">d</a>
+        <a href="https://example.com">e</a> 
+    </nav>
+
+    <!-- aside tag is used to show in the side of the page, like side bar, ads, notes,  etc. -->
+     <!-- Indirectly re lated to surrounding content -->
+     <aside>
+        <p>Notes</p>
+        <li>ijknshb iuhsb </li>
+        <li>oijskjk </li>
+        <li> oijks </li>
+        <li>oisjkje oieknj </li>
+        <li>oiuejnk iojskn</li>
+     </aside>
+
+</body>
+</html>
