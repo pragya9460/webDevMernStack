@@ -26,46 +26,63 @@
     </form>
     <br> <br>
 
+    <!-- Home work -->
     <form action="https://example.com">
         <caption><b>Contact us form</b></caption>
-        <br>
+        <br><br>
 
         <label for="name">Name</label>
-        <input type="text", name="name">
+        <input type="text", name="name", placeholder="Enter your name">
         <br>
 
         <label for="email">Email</label>
-        <input type="text" name="email">
+        <input type="text", name="email", placeholder="Enter your email">
         <br>
 
         <label for="phoneNo">Contact Number</label>
-        <input type="number", name="phoneNo">
+        <input type="number", name="phoneNo", min="0">
         <br>
 
         <label for="dob">Date Of Birth</label>
         <input type="date", name="dob">
         <br>
 
+        <label for="age">Age</label>
+        <input type="number", min="0", max="100", step="1", placeholder="0", name="age">
+        <br>
+
         <label for="rating">Rating</label>
-        <input type="radio", name="1">
-        <label for="1">1</label>
-        <input type="radio", name="2">
-        <label for="2">2</label>
-        <input type="radio", name="3">
-        <label for="3">3</label>
-        <input type="radio", name="4">
-        <label for="4">4</label>
-        <input type="radio", name="5">
-        <label for="5">5</label>
+        <input type="radio" id="rating-1" name="rating" value="1">
+        <label for="rating-1">1</label>
+        <input type="radio" id="rating-2" name="rating" value="2">
+        <label for="rating-2">2</label>
+        <input type="radio" id="rating-3" name="rating" value="3">
+        <label for="rating-3">3</label>
+        <input type="radio" id="rating-4" name="rating" value="4">
+        <label for="rating-4">4</label>
+        <input type="radio" id="rating-5" name="rating" value="5">
+        <label for="rating-5">5</label>
         <br>
 
         <label for="msg">Enter Your Message</label>
         <br>
-        <textarea name="msg">Enter Your Message</textarea>
+        <textarea name="msg", placeholder="Enter Your Message"></textarea>
         <br>
 
         <button name="send">Send</button>
         <button>Reset</button>
+        <br>
+        <br>
+
+        <a href="https://youtube.com">
+            <img src="youtubeLogo.png" alt="youtube logo" width="40px" height="40px">
+        </a>
+        <a href="https://instagram.com">
+            <img src="instaLogo.jpeg" alt="instagram logo" width="40px" height="40px">
+        </a>
+        <a href="https://telegram.com">
+            <img src="telegramLogo.jpeg" alt="telegram logo" width="35px" height="35px">
+        </a>
 
     </form>
 </body>
