@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS Tooltip</title>
+    <style>
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border-radius: 4px;
+
+            /* Positioning the tooltip */
+            position: absolute;
+            bottom: 125%; /* Adjust to position above */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+
+            /* Optional: Add a fade-in effect */
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Q1 -->
+    <p class="tooltip">
+        Web Development Master Course
+        <span class="tooltip-text">Dot Batch</span>
+    </p>
+
+    <!-- Q2 -->
+    <h1>CodeHelp</h1>
+    <h2>CodeHelp</h2>
+    <h3>CodeHelp</h3>
+    <h4>CodeHelp</h4>
+    <h5>CodeHelp</h5>
+    <h6>CodeHelp</h6>
+
+    <!-- Q3 -->
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+    <!-- Q4 -->
+    <pre>
+        My house is red - a little house;
+        A happy child am I:
+        I laugh and play the whole day long,
+        I hardly ever cry.
+
+        I have a tree, a green, green tree,
+        To shade me from the sun;
+        And under it I often sit,
+        When all my play is done.
+    </pre>
+
+    <!-- Q5 -->
+    <img src="https://bit.ly/3I7Q44c" width="400px", height="250px">
+
+    <!-- Q6 -->
+    <form action="/submit.html">
+        Email: <input type="email" name="email">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
