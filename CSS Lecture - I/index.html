@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Internal css -->
+    <style>
+        /* Selector => In below example p is a selctor, color & font-size are property and red and larger are it's value */
+        /* Element/Type/Tag Selector */
+        p {
+            color: red;
+            font-size: larger;
+        }
+        h1 {
+            background-color: aqua;
+        }
+
+        /* Multiple/Grouping Selector */
+        table, tr, td, th {
+            border: 2px, solid, black ;
+        }
+
+        /* Class selector */
+        .greenColor {
+            color: green;
+        }
+        .blueColor {
+            color: blue;
+        }
+        .smallFont {
+            font-size: small;
+        }
+        .largeFont {
+            font-size: large;
+        }
+
+        /* Id selector */
+        #firstButton {
+            color: red;
+        }
+        #para {
+            background-color: aqua;
+        }
+
+        /* psuedo selector => Here hover is psuedoSelector */
+        button:hover {
+            color: yellow;
+        }
+        #linkId:hover {
+            color: blueviolet;
+        }
+
+        /* universal selector */
+        * {
+            background-color: pink;
+        }
+
+        /* nested selector */
+        div {
+            h2 {
+                background-color: blue;
+            }
+        }
+
+        /* Attribute selector =>Selects elements where the attribute value starts with the specified string. They are helpful when working with dynamically generated content or when classes and IDs are unavailable. */
+        [href^="https"] {
+            color: magenta;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a para</p>
+    <p>This is second para</p>
+
+    <table>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <p class="greenColor">Para 1 with green color</p>
+    <p class="blueColor">Para with blue color</p>
+    <p class="greenColor">Para 2 with green color again</p>
+
+    <h1 class="smallFont">This is h1</h1>
+    <h2 class="smallFont">This is h2</h2>
+    <h3 class="smallFont">This is h3</h3>
+    <h4 class="largeFont">This is h4</h4>
+    <h5 class="largeFont">This is h5</h5>
+    <h6 class="largeFont">This is h6</h6>
+
+    <button id="firstButton">Submit</button>
+
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laborum veritatis assumenda ratione voluptas corporis asperiores molestias minus, possimus temporibus accusantium dicta molestiae nihil quasi beatae sunt ea voluptatum soluta!</p>
+
+    <!-- Inline css -->
+    <button style="background-color: aquamarine;">Hover</button>
+
+    <a href="https://google.com" id="linkId">Google here</a>
+
+
+    <h2>This is normal h2</h2>
+    <div>
+        <h2>This is h2 within div</h2>
+    </div>
+
+
+</body>
+</html>

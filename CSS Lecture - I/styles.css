@@ -1,0 +1,80 @@
+/* External css */
+h1 {
+    background-color: lightsteelblue;
+}
+
+/* specifity => Tag < class < id < inline css */
+/* Whenever there is !important is there, it will be picked as specificity dies here  */
+h3 {
+    color: blue !important; /* Though using !important is a bad practice */
+}
+.specificity {
+    color: red;
+}
+#specs {
+    color: green;
+}
+
+/* Box model in css  */
+/* It's a basic building block of css */
+/* According to box model every element on a page is a rectangular box and may have width, height, padding, borders, margin. */
+#imgg {
+    width: 400px;
+    height: 250px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* outer part of border is margin */
+    margin: 5px;
+    /* space between content & border is padding */
+    padding: 10px;
+    /* margin and padding can be on left, right, bottom, top as well */
+    margin-left: 10px;
+
+    box-sizing: border-box;
+}
+
+/* Colors in css */
+/* Hexadecimal, # followed by 6digits, starts with 0 & can go upto f,  */
+/* first 2 digit is for red, then next 2 is for green and then next 2 is for blue, and with these 3 combinations any colors can be formed */
+/*
+#ff0000 -> red
+#00ff00 -> green
+#0000ff -> blue
+#000000 -> Black
+#ffffff -> White
+*/
+/* RGB colors => rgb(_, _, _), 
+where rgb(255, 0, ) -> Red
+rgb(0, 255, 0) -> Green
+rgb(0, 0, 255) -> Blue
+rgb(0, 0, 0) -> Black
+rgb(255, 255, 255) -> White
+*/
+/* rgba() -> Here 'a' is for opacity, that is alpha value */
+
+#org {
+    background-color: #ff0000;
+}
+
+#wht {
+    background-color: rgba(0, 255, 0, 0.536);
+}
+
+#grn {
+    background-color: rgb(0, 0, 255);
+}
+
+em {
+    color: blue;
+    font-style: italic;
+  }
+  
+  strong {
+    color: red;
+    font-weight: bold;
+  }
+  
