@@ -1,0 +1,30 @@
+.box {
+    background-color: aqua;
+    transform: translate(100px, 100px);
+    /* transform: translateX(100px);
+    transform: translateY(200px); */
+
+    /* when angle is positive, then rotates clockwise, else anti-clockwise */
+    /* transform: rotate(-40deg); */
+
+    /* (horizontal, vertical) scaling/zooming */
+    margin: 100px;
+    transform: scale(1, 2);
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(3); */
+
+    /* transform: skew(20deg); */
+    transform: skew(-20deg);
+
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+
+    /* matrix(a, b, c, d, tx, ty)
+    Values
+    a b c d
+    Are <number>s describing the linear transformation.
+
+    tx ty
+    Are <number>s describing the translation to apply. */
+
+    
+}

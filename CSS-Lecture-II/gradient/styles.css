@@ -1,0 +1,37 @@
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(pink, blue);
+    /* By default direction of gradient is top -> down  */
+    background-image: linear-gradient(to right, pink, blue);
+    background-image: linear-gradient(to left, pink, blue);
+    background-image: linear-gradient(to bottom, pink, blue);
+    background-image: linear-gradient(to top, pink, blue);
+    background-image: linear-gradient(to bottom left, pink, blue);
+    background-image: linear-gradient(to bottom right, pink, blue);
+    background-image: linear-gradient(to top left, pink, blue);
+    background-image: linear-gradient(to top right, pink, blue);
+    /* background-image: linear-gradient(to top right, pink, blue, red); */
+    background-image: linear-gradient(to 240deg, pink, blue);
+    background-image: linear-gradient(to bottom left, pink, rgba(0, 0, 255, 0.673));
+}
+
+.myDiv {
+    border: 1px, solid, black;
+    width: 150px;
+    height: 400px;
+    margin-top: 5px;
+    background-image: radial-gradient(yellow, orange, red);
+    background-image: radial-gradient(circle, yellow, orange, red);
+    background-image: radial-gradient(circle, yellow 5%, orange 10%, red 50%);
+}
+
+.div2 {
+    border: 1px, solid, black;
+    width: 150px;
+    height: 200px;
+    margin-top: 5px;
+    background-image: conic-gradient(blue, black, white);
+}
+

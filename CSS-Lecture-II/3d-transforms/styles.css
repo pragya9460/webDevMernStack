@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+
+.static {
+
+}
+
+/* To do anything on 3d we need to turn on the perspective */
+.translated {
+    transform: perspective(10px) translateZ(-10px);
+}
+
+.scaled {
+    margin: 200px;
+    transform: rotateZ(40deg);
+    /* transform: perspective(350px) scaleZ(10px) rotateX(45deg) rotateY(45deg) rotateZ(45deg); */
+}

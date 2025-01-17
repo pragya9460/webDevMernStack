@@ -1,0 +1,23 @@
+.box {
+    border: 1px, solid, black;
+    height: 50px;
+    width: 300px;
+    /* To stop the text being overflowing from the box */
+    overflow: scroll;
+}
+
+.myDiv {
+    border: 1px, solid, black;
+    min-height: 50px;
+    min-width: 100px;
+    margin-top: 10px;
+
+}
+
+.overflow {
+    border: 1px, solid, black;
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    overflow: auto;
+}

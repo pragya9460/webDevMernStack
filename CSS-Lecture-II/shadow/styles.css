@@ -1,0 +1,27 @@
+h1 {
+    text-shadow: 3px 3px 3px pink;
+    /* above 3 params are width(here it means horizontal distance from the text), height(here it means vertical distance from the text), blur, color */
+
+    text-shadow: 3px 3px 3px rgb(252, 151, 168), 5px 5px 5px blue;
+}
+
+.box {
+    border: 1px, solid, black;
+    height: 100px;
+    width: 200px;
+    box-shadow: 3px 3px 10px red, 13px 13px 20px blue;
+    box-shadow: -13px -13px 10px red, 13px 13px 20px blue;
+    background-color: aqua;
+}
+
+.div {
+    border: 1px, solid, black;
+    height: 100px;
+    width: 200px;
+    margin-top: 300px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.3);
+
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+}

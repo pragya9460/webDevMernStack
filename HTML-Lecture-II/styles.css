@@ -41,7 +41,8 @@ aside {
     padding: 15px;
     border: 1px solid black;
     border-radius: 6px;
-    box-shadow: 0 4px 6px;
+    border-color: rgb(231, 195, 149);
+    box-shadow: 4px 4px rgb(231, 195, 149);
 }
 
 aside p {
