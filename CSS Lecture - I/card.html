@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid black;
+            border-radius: 8px;
+            height: 300px;
+            width: 400px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            width: 340px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden; 
+            text-decoration: none;
+        }
+
+        .card:hover {
+            transform: scale(1.04);
+            box-shadow: #000000;
+            shape-outside: margin-box;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin: 6px 0;
+        }
+
+        .card-description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .card-pricing {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 10px;
+        }
+
+        .price {
+            font-size: 18px;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .original-price {
+            font-size: 16px;
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 5px;
+        }
+
+        .discount {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <h1>This is a card</h1>
+
+    <div class="box">
+        <figure>
+            <img src="card.png" alt="card image">
+            <figcaption>
+                Web Development Master Course @dot Batch
+                <hr>
+        <p>₹4500 <strike>₹6999</strike> 42% off</p>
+            </figcaption>
+        </figure>
+        
+    </div>
+    <br> -->
+
+    <!-- Homework, learnt about div, span & class -->
+    <a href="https://example.com" class="card" target="_blank">
+        <img src="card.png" alt="Web Dev Bootcamp">
+        <div class="card-content">
+            <div class="card-title">
+                Web Development Master Course @dot Batch
+            </div>
+            <div class="card-pricing">
+                <div>
+                    <span class="price">
+                        ₹4500
+                    </span>
+                    <span class="original-price">
+                        ₹6999
+                    </span>
+                </div>
+                <span class="discount">
+                    42% off
+                </span>
+
+            </div>
+        </div>
+    </a>
+</body>
+</html>

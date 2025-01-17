@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="styles.css">
 
     <!-- Internal css -->
-    <!-- <style>
+    <style>
         h1 {
             background-color: lightsteelblue;
         }
-    </style> -->
+        .firstPara {
+            background-color: aqua;
+            width: 50vw;
+            height: 10vw;
+        }
+    </style>
 
     <!-- Adding external font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -44,6 +49,18 @@
     <div class="box", id="grn">C</div>
 
 
+    <!-- Units in css -->
+    <!-- * Absolute/Fixed unit(mm, cm, in, px(px -> 1/96th of a inch)) -->
+    <!-- * Percentage unit => x % of parent -->
+    <!-- * Relative Unit -->
+        <!-- * Relative to font font-size (em(relative to parent), rm(relative to root, i.e html))-->
+        <!-- * Relative to document/ViewPort(Display area) (vw(1/100 of width of viewport), vh(1/100 of height of viewport))  -->
+
+    <div class="firstPara">Para</div>
+    <!-- 1% => Represents 1% of the size of the containing (parent) element. -->
+     <!-- 1vw => Represents 1% of the width of the viewport (the visible area of the browser window, excluding scrollbars).-->
+
+    <br>
     <img src="content.png" alt="learningContent", id="imgg">
 </body>
 </html>
