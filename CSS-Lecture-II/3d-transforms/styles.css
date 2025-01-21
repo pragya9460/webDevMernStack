@@ -6,10 +6,6 @@ div {
 
 }
 
-.static {
-
-}
-
 /* To do anything on 3d we need to turn on the perspective */
 .translated {
     transform: perspective(10px) translateZ(-10px);
